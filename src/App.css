@@ -1,38 +1,44 @@
 .App {
+  margin-top:50px;
+}
+body{
+  background-color: rgb(89, 89, 89);
+}
+.pomodoroClock{
+  width:500px;
+  height:300px;
+  border:1px solid rgb(158, 143, 8);
+  border-radius: 20px;
+  background-color: #b59a1598;
+  margin-left:500px;
+  padding:20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.view{
+  font-size: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn{
+  font-size: 20px;
+  background-color: rgba(0, 0, 255, 0.705);
+  color:#fff;
+  border:1px solid blue;
+  border-radius: 10px;
+  padding:5px;
+  margin:10px;
+  height:40px;
+  width:80px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputvalue{
+  font-size: 20px;
+  background-color: #000;
+  color:aliceblue;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn1{
+  font-size: 20px;
+  background-color: rgba(37, 112, 5, 0.705);
+  color:#fff;
+  border:1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding:5px;
+  margin:10px;
 }
