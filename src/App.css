@@ -1,16 +1,17 @@
-.App {
-  margin-top:50px;
-}
 body{
-  background-color: rgb(89, 89, 89);
+  /* background-color: rgb(89, 89, 89); */
+  background:url('https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-timer-and-sands-in-a-wooden-hourglass-image_2954295.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .pomodoroClock{
   width:500px;
   height:300px;
-  border:1px solid rgb(158, 143, 8);
+  border:1px solid rgb(255, 255, 255);
   border-radius: 20px;
-  background-color: #b59a1598;
+  background-color: #ffffff98;
   margin-left:500px;
+  margin-top:200px;
   padding:20px;
   text-align: center;
 }
